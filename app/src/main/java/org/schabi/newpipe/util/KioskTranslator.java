@@ -63,7 +63,7 @@ public final class KioskTranslator {
             case "Most liked":
                 return ThemeHelper.resolveResourceIdFromAttr(c, R.attr.thumbs_up);
             default:
-                return ThemeHelper.resolveResourceIdFromAttr(c, R.attr.ic_kiosk_local);;
+                return ThemeHelper.resolveResourceIdFromAttr(c, R.attr.ic_kiosk_local);
         }
     }
 }
