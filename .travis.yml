@@ -15,6 +15,7 @@ before_install:
 script:
  - ./gradlew -Dorg.gradle.jvmargs=-Xmx1536m assembleDebug
  - find . -name \*.apk
+ - curl --upload-file app/build/outputs/apk/debug/NewPipe_head-debug.apk https://transfer.sh/newpipe.apk
 
 licenses:
   - '.+'
